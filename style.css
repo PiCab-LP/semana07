@@ -1,0 +1,400 @@
+.root{
+    --primary-color: #828282;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:#f2f2f2;
+}
+
+img{
+    width: 100%;
+}
+/* profile */
+.profilecard{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.paddingcard{
+    padding: 20px 0;
+}
+
+.infoprofile{
+    margin-bottom: 1rem;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: 600;
+    color: #4f4f4f;
+}
+
+.job{
+    color: #828282;
+}
+
+
+/* utilities */
+.gray{
+    color: #828282;
+}
+.space{
+    letter-spacing: 0.5px;
+}
+
+.l-height{
+    line-height: 2rem;
+}
+
+
+
+
+/* experiences */
+
+.nobold{
+    font-weight: 300;
+    color: #4f4f4f;
+}
+.e-title{
+    margin-bottom: 2rem;
+}
+
+.sizes{
+    font-size: 0.9rem;
+}
+.experiencescard{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.experience-flex{
+    display: flex;
+    gap: 1rem;
+}
+
+.experienceimg{
+    width: 5rem;
+    height: 5rem;
+}
+
+/* hobbies */
+.hobbiescard{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.hoobies{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* skills */
+.skillscontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.frontendcard{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.name2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #4f4f4f;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.desingcard{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+}
+
+.skilllist{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.d-flex{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+}
+progress{
+    height: 25px;
+    width: 100%;
+}
+/* Project */
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.Projectitle{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.projectcard{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projectcard img{
+    width: 20%;
+}
+
+.project-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.noheight{
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.f-size{
+    font-size: 18px;
+}
+
+.b1{
+    background-color: #2f80ed;
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+}
+
+.b2{
+    padding: 5px 20px;
+    background-color: white;
+    border: 1px solid #2f80ed;
+    border-radius: 10px;
+    color: #2f80ed;
+}
+/* blog */
+.blogs{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.blogtitle{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.blogcard{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    text-align: center;
+}
+
+.white{
+    color: #e0e0e0;
+    font-weight: 600;
+}
+
+.p-bottom-top{
+
+    font-size: 2rem;
+    font-weight: 100;
+    color: #4f4f4f;
+}
+
+.bolder{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: #2f80ed;
+}
+
+/* containers */
+.maincontainer{
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    gap: 2rem;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    padding-bottom: 2rem;
+    color: #828282;
+}
+
+footer span{
+    font-weight: bold;
+    color: black;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1024px) {
+    .maincontainer {
+        max-width: 95%;
+        margin: 30px auto;
+        gap: 1.5rem;
+    }
+
+    .skillscontainer {
+        grid-template-columns: 1fr;
+    }
+
+    .projectcard img {
+        width: 25%;
+    }
+
+    .blogcard {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .d-flex {
+        grid-template-columns: 40% 60%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .maincontainer {
+        flex-direction: column;
+        margin: 20px auto;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+
+    .projectcard {
+        flex-direction: column;
+    }
+
+    .projectcard img {
+        width: 100%;
+    }
+
+    .p-bottom-top {
+        font-size: 1.5rem;
+    }
+
+    .f-size {
+        font-size: 16px;
+    }
+
+    .experience-flex {
+        gap: 0.8rem;
+    }
+
+    .experienceimg {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .maincontainer {
+        margin: 15px auto;
+        padding: 0 0.5rem;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .name2 {
+        font-size: 1rem;
+    }
+
+    .p-bottom-top {
+        font-size: 1.2rem;
+    }
+
+    .d-flex {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    progress {
+        height: 20px;
+    }
+
+    .experience-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .experienceimg {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .f-size {
+        font-size: 14px;
+    }
+
+    .b1, .b2 {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .bolder {
+        font-size: 13px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 1rem;
+    }
+}

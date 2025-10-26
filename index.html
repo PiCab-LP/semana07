@@ -4,181 +4,212 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div>
-        <div>
-            <section>
+    <div class="maincontainer">
+        <div class="container1">
+            <section class="profilecard">
                 <img src="./images/profile.jpg">
-                <h1>Billy Pearson</h1>
-                <p>Front-end developer</p>
+                <div class="l-height">
+                    <h1 class="name">Billy Pearson</h1>
+                    <p class="job">Front-end developer</p>
+                </div>
 
-                <div>
+                <div class="infoprofile">
                     <p>billy@example.com</p>
                     <p>(+603) 546 624 342</p>
                 </div>
 
-                <p>Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
+                <p class="gray">Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
             </section>
 
-            <section>
-                <h2>Experiences</h2>
+            <section class="experiencescard">
+                <h2 class="nobold e-title">Experiences</h2>
 
-                <article>
-                    <img src="./images/EXP-1.png">
+                <article class="experience-flex paddingcard">
+                    <img src="./images/EXP-1.png" class="experienceimg">
                     <div>
-                        <p>Feb 2017 - Current</p>
-                        <h3>Front-end developer</h3>
-                        <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                        <div class="l-height">
+                            <p class="gray">Feb 2017 - Current</p>
+                            <h3 class="sizes">Front-end developer</h3>
+                        </div>
+                        <p class="gray space">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
                     </div>
                 </article>
 
-                <article>
-                    <img src="./images/EXP-2.png">
+                <article class="experience-flex paddingcard">
+                    <img src="./images/EXP-2.png" class="experienceimg">
                     <div>
-                        <p>Aug 2016 - Feb 2018</p>
-                        <h3>Full-stack developer</h3>
-                        <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                        <div class="l-height">
+                            <p class="gray">Aug 2016 - Feb 2018</p>
+                            <h3 class="sizes">Full-stack developer</h3>
+                        </div>
+                        <p class="gray space">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
                     </div>
                 </article>
 
-                <article>
-                    <img src="./images/EXP-3.png">
+                <article class="experience-flex paddingcard">
+                    <img src="./images/EXP-3.png" class="experienceimg">
                     <div>
-                        <p>Jun 2015 - Aug 2016</p>
-                        <h3>Junior front-end developer</h3>
-                        <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                        <div class="l-height">
+                            <p class="gray">Jun 2015 - Aug 2016</p>
+                            <h3 class="sizes">Junior front-end developer</h3>
+                        </div>
+                        <p class="gray space">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
                     </div>
                 </article>
             </section>
 
-            <section>
-                <h2>Hobbies</h2>
+            <section class="hobbiescard">
+                <h2 class="nobold e-title">Hobbies</h2>
 
                 <div>
                     <article>
                         <img src="./images/hobbie01.jpg">
-                        <h3>Gaming</h3>
-                        <p>Quisque feugiat malesuada molestie.</p>
+                        <div class="hoobies l-height">
+                            <h3>Gaming</h3>
+                            <p>Quisque feugiat malesuada molestie.</p>
+                        </div>
                     </article>
 
                     <article>
                         <img src="./images/hobbie02.jpg">
-                        <h3>Cooking</h3>
-                        <p>Quisque feugiat malesuada molestie.</p>
+                        <div class="hoobies l-height">
+                            <h3>Cooking</h3>
+                            <p>Quisque feugiat malesuada molestie.</p>
+                        </div>
                     </article>
 
                     <article>
                         <img src="./images/hobbie03.jpg">
-                        <h3>Biking</h3>
-                        <p>Quisque feugiat malesuada molestie.</p>
+                        <div class="hoobies l-height">
+                            <h3>Biking</h3>
+                            <p>Quisque feugiat malesuada molestie.</p>
+                        </div>
                     </article>
                 </div>
             </section>
         </div>
 
-        <div>
-            <section>
-                <div>
-                    <h2>Front End</h2>
-                    <div>
-                        <div>
+        <div class="container2">
+            <section class="skillscontainer">
+                <div class="frontendcard">
+                    <h2 class="name2">FRONT END</h2>
+                    <div class="skilllist">
+                        <div class="d-flex">
                             <label>React</label>
                             <progress value="70" max="100"></progress>
                         </div>
 
-                        <div>
+                        <div class="d-flex">
                             <label>JavaScript</label>
                             <progress value="80" max="100"></progress>
                         </div>
 
-                        <div>
-                            <label>Css</label>
+                        <div class="d-flex">
+                            <label>CSS</label>
                             <progress value="90" max="100"></progress>
                         </div>
 
-                        <div>
+                        <div class="d-flex">
                             <label>Vue</label>
                             <progress value="55" max="100"></progress>
                         </div>
 
-                        <div>
+                        <div class="d-flex">
                             <label>Redux</label>
                             <progress value="80" max="100"></progress>
                         </div>
 
-                        <div>
+                        <div class="d-flex">
                             <label>React Native</label>
                             <progress value="90" max="100"></progress>
                         </div>
                     </div>
                 </div>
 
-                <div>
-                    <h2>Desing</h2>
-                    <div>
-                        <label>Figma</label>
-                        <progress value="70" max="100"></progress>
+                <div class="desingcard">
+                    <h2 class="name2">DESIGN</h2>
+                    <div class="skilllist">
+                        <div class="d-flex">
+                            <label>Figma</label>
+                            <progress value="70" max="100"></progress>
+                        </div>
 
-                        <label>Photoshop</label>
-                        <progress value="80" max="100"></progress>
+                        <div class="d-flex">
+                            <label>Photoshop</label>
+                            <progress value="80" max="100"></progress>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section>
-                <h2>Projects (3)</h2>
-                <article>
+            <section class="projects">
+                <h2 class="Projectitle">Projects (3)</h2>
+
+                <article class="projectcard">
                     <img src="./images/project01.jpg">
-                    <div>
-                        <p>#HTML #CSS #responsive</p>
-                        <p>Recipe Blog</p>
-                        <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-                    </div>
+                    <div class="l-height">
+                        <div>
+                            <p>#HTML #CSS #responsive</p>
+                            <h3>Recipe Blog</h3>
+                            <p class="noheight gray f-size">In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                        </div>
 
-                    <div>
-                        <button>Demo</button>
-                        <button>Code</button>
+                        <div>
+                            <button class="b1 f-size">Demo</button>
+                            <button class="b2 f-size">Code</button>
+                        </div>
                     </div>
                 </article>
 
-                <article>
+                <article class="projectcard">
                     <img src="./images/project02.jpg">
-                    <div>
-                        <p>#HTML #CSS #responsive</p>
-                        <p>My Gallery</p>
-                        <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-                    </div>
+                    <div class="l-height">
+                        <div>
+                            <p>#HTML #CSS #responsive</p>
+                            <h3>My Gallery</h3>
+                            <p class="noheight gray f-size">In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                        </div>
 
-                    <div>
-                        <button>Demo</button>
-                        <button>Code</button>
+                        <div>
+                            <button class="b1 f-size">Demo</button>
+                            <button class="b2 f-size">Code</button>
+                        </div>
                     </div>
                 </article>
 
-                <article>
+                <article class="projectcard">
                     <img src="./images/project03.jpg">
-                    <div>
-                        <p>#HTML #CSS #responsive</p>
-                        <p>Checkout</p>
-                        <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-                    </div>
+                    <div class="l-height">
+                        <div>
+                            <p>#HTML #CSS #responsive</p>
+                            <h3>Checkout</h3>
+                            <p class="noheight gray f-size">In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                        </div>
 
-                    <div>
-                        <button>Demo</button>
-                        <button>Code</button>
+                        <div>
+                            <button class="b1 f-size">Demo</button>
+                            <button class="b2 f-size">Code</button>
+                        </div>
                     </div>
                 </article>
             </section>
 
-            <section>
-                <h2>Blogs (1)</h2>
-                <div>
-                    <p>Blog</p>
-                    <p>How to organize your CSS</p>
-                    <p>In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-                    <a href="#">dev.to</a>
+            <section class="blogs">
+                <h2 class="blogtitle">Blogs (1)</h2>
+                <div class="blogcard">
+                    <div class="d-flex-column">
+                        <p class="white">Blog</p>
+                        <h3 class="p-bottom-top sizer">How to organize your CSS</h3>
+                        <div class="noheight gray f-size bolder">
+                            <p class="l-height">In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.</p>
+                            <p class="l-height">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                        </div>
+                        <p><a href="#">dev.to</a></p>
+                    </div>
 
                     <img src="./images/blog01.jpg">
                 </div>
